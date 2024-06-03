@@ -4,7 +4,7 @@ const { Web3 } = require('@theqrl/web3')
 const web3 = new Web3(new Web3.providers.HttpProvider(config.provider))
 
 if(config.contract_address == "contract_address_here") {
-    console.log("You need a to enter your contract address for this to work.")
+    console.log("You need to enter your contract address for this to work.")
     process.exit(1)
 }
 
