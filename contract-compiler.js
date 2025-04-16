@@ -20,15 +20,15 @@ var input = {
 
 /* All imports of solidity contract should be mentioned here (if any) otherwise should be left blank */
 function findImports(path) {
-    if (path === 'ERC20.hyp')
+    if (path === 'ZRC20.hyp')
         return {
             contents:
-                fs.readFileSync("./contracts/ERC20.hyp").toString()
+                fs.readFileSync("./contracts/ZRC20.hyp").toString()
         };
-    else if (path === 'IERC20.hyp')
+    else if (path === 'IZRC20.hyp')
         return {
             contents:
-                fs.readFileSync("./contracts/IERC20.hyp").toString()
+                fs.readFileSync("./contracts/IZRC20.hyp").toString()
         };
     else return { error: 'File not found' };
 }
