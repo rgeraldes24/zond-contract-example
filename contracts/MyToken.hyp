@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma hyperion ^0.0.2;
 
-import "ERC20.hyp";
+import "ZRC20.hyp";
 
-contract MyToken is ERC20 {
-    constructor(string memory name, string memory symbol) ERC20(name, symbol) {
+contract MyToken is ZRC20 {
+    constructor(string memory name, string memory symbol) ZRC20(name, symbol) {
         // Mint 100 tokens to msg.sender
         // Similar to how
         // 1 dollar = 100 cents
