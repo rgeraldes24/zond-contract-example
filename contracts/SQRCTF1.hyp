@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma hyperion ^0.0.2;
 
-import "./IZRC20.hyp";
+import "./ISQRCTF1.hyp";
 
-contract ZRC20 is IZRC20 {
+contract SQRCTF1 is ISQRCTF1 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
