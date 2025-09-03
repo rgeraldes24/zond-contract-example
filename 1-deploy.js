@@ -22,7 +22,7 @@ const deployMyTokenContract = async () => {
     const output = contractCompiler.GetCompilerOutput()
 
     const contractABI = output.contracts['MyToken.hyp']['MyToken'].abi
-    const contractByteCode = output.contracts['MyToken.hyp']['MyToken'].zvm.bytecode.object
+    const contractByteCode = output.contracts['MyToken.hyp']['MyToken'].qrvm.bytecode.object
     const contract = new web3.qrl.Contract(contractABI)
 
     const deployOptions = {data: contractByteCode, arguments: ["TOKEN123", "TOK"]}
