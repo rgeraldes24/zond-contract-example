@@ -20,15 +20,15 @@ var input = {
 
 /* All imports of solidity contract should be mentioned here (if any) otherwise should be left blank */
 function findImports(path) {
-    if (path === 'ZRC20.hyp')
+    if (path === 'SQRCTF1.hyp')
         return {
             contents:
-                fs.readFileSync("./contracts/ZRC20.hyp").toString()
+                fs.readFileSync("./contracts/SQRCTF1.hyp").toString()
         };
-    else if (path === 'IZRC20.hyp')
+    else if (path === 'ISQRCTF1.hyp')
         return {
             contents:
-                fs.readFileSync("./contracts/IZRC20.hyp").toString()
+                fs.readFileSync("./contracts/ISQRCTF1.hyp").toString()
         };
     else return { error: 'File not found' };
 }
