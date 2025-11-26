@@ -35,7 +35,7 @@ The hexseed should be prefixed with `0x` and put in the `config.json` file in pl
 ```json
 {
     "provider":"http://localhost:4545",
-    "hexseed":"0x010000a76b9cac647b68bf6a0e9fb0c53133ea5ff2efade54ba67aef1aa8a9e22b86b750bb8d7301aae6f309ddb20b3e1a1995",
+    "hexseed":"0x010000cea755979937e2dc6137c0e51ba0d1eb2a44920cefffb1a860cf194ea7d23d694045fd2c8a72ec5aecf1e7e5bb591ff2",
     "contract_address":"contract_address_here",
     "tx_required_confirmations": 12
 }
@@ -90,7 +90,7 @@ Your `config.json` file should look now look something like this:
 ```json
 {
     "provider":"http://45.76.43.83:4545",
-    "hexseed":"0x010000a76b9cac647b68bf6a0e9fb0c53133ea5ff2efade54ba67aef1aa8a9e22b86b750bb8d7301aae6f309ddb20b3e1a1995",
+    "hexseed":"0x010000cea755979937e2dc6137c0e51ba0d1eb2a44920cefffb1a860cf194ea7d23d694045fd2c8a72ec5aecf1e7e5bb591ff2",
     "contract_address":"Qecf54b758c2793466FD48517E5E84313Dc5C89ee",
     "tx_required_confirmations": 2
 }
